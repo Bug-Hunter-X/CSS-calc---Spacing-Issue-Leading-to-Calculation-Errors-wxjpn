@@ -1,0 +1,25 @@
+The corrected CSS code which addresses the spacing issue in `calc()`:
+
+```css
+.element {
+  width: calc(100px + 20px);
+  /* Correct: No spaces around '+' operator */
+}
+
+.element2 {
+  width: calc(50% - 20px);
+  /* Correct: No spaces around '-' operator */
+}
+
+.element3 {
+  width: calc(2 * 100px);
+  /* Correct: No spaces around '*' operator */
+}
+
+.element4 {
+  width: calc(200px / 2);
+  /* Correct: No spaces around '/' operator */
+}
+```
+
+This corrected code ensures that the calculations are performed as intended.
